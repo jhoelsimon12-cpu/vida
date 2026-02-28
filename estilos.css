@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente más moderna */
+    margin: 0;
+    padding: 0;
+    background-color: #3009e0; /* Fondo sutilmente grisáceo */
+    color: #010102;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #acacac;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(168, 29, 29, 0.1);
+    border-radius: 8px;
+    
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000000;
+    color: #000000;
+}
+
+header h1 {
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.profesion {
+    font-style: italic;
+    color: #000000;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 3px solid #000000; /* Borde de color */
+}
+
+section {
+    margin-top: 30px;
+}
+
+section h2 {
+    border-bottom: 2px solid #000000; /* Azul más llamativo */
+    padding-bottom: 8px;
+    color: #000000;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+.institucion, .empresa {
+    font-weight: bold;
+    color: #000000;
+}
+
+.fecha {
+    font-style: italic;
+    color: #000000;
+}
+
+#idiomas ul, #habilidades ul, #otros-cursos ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+#datos-personales i {
+    color: #000000;
+    margin-right: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #000000;
+    color: #000000;
+}
